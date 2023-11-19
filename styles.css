@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.contenedor_1{
+    
+    background: url("./image/pelu.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh);
+}
+
+.Encabezado{
+    height: 17%;
+    position: fixed;
+    right: 0;
+    width: 80%;
+    background-color:rgba(255, 182, 193, 0.63);
+    border-radius: 40px;
+}
+
+.main{
+    width: 100%;
+    
+}
+
+img{
+    position: fixed;
+    width: 20%;
+    height: 40%;
+}
+
+.logo_link{
+    background-color: rgba(210, 130, 245, 0.24);
+   position: fixed;
+   left: 0;
+   width: 20%;
+   height: 100%;
+   border-radius: 90px;
+}
+
+.nav{
+    position:relative;
+    padding-top:250px;
+    color: rgb(144, 104, 5);
+    
+}
+
+.link{
+   
+    color: aliceblue;
+    text-decoration: none;
+    font-size:xx-large;
+    font-weight: bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.link:hover{
+    color: rgba(249, 185, 22, 0.607);
+}
+
+
+
+.galeriaproductos{
+    
+    display: inline-flex;
+    width: 1000px;
+    height: 1000px;
+    margin-top: 200px;
+    margin-left: 400px;
+    margin-right: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    object-fit: cover;
+    background: center center;
+    
+    
+}
+.galeriamanicure{
+    display: inline-flex;
+    width: 1000px;
+    height: 1000px;
+    margin-top: 200px;
+    margin-left: 400px;
+    margin-right: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    object-fit: cover;
+    background: center center;
+}
+
+.galeriapedicure{
+    display: inline-flex;
+    width: 1000px;
+    height: 1000px;
+    margin-top: 200px;
+    margin-left: 400px;
+    margin-right: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    object-fit: cover;
+    background: center center;
+}
+
+.galeriacepillado{
+    display: inline-flex;
+    width: 1000px;
+    height: 1000px;
+    margin-top: 200px;
+    margin-left: 400px;
+    margin-right: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    object-fit: cover;
+    background: center center;
+}
+
+.galeriapeinado{
+    display: inline-flex;
+    width: 1000px;
+    height: 1000px;
+    margin-top: 200px;
+    margin-left: 400px;
+    margin-right: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    object-fit: cover;
+    background: center center;
+}
+
+.contenedor_2{
+    display: inline-flex;
+    margin-top: 200px;
+    margin-left: 1000px;
+    margin-right: 40px;
+    border-radius: 20px;
+    background-color: rgba(205, 92, 92, 0.288);
+     height: 300px;
+}
+
+.registro{
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 5px;
+}
+
+
+h2{
+    margin-left: 55px;
+    font-family: cursive;
+    font-weight:bold;
+    font-size: xx-large;
+}
+
+.controles{
+    width: 100%;
+      border-radius: 50px;
+      background: rgba(233, 150, 122, 0.295);  
+}
+
+.label{
+    color: aliceblue;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.boton{
+    margin-left: 60px;
+    margin-top: 10px;
+    background-color:rgba(255, 3, 53, 0.313);
+    border-radius: 30px;
+    color:rgb(244, 190, 170);
+}
+
+.titulo{
+    display: inline-flex;
+    border-radius: 50px ;
+    background-color: rgba(255, 0, 0, 0.164);
+    color: brown;
+    margin-top: 10px;
+    margin-left: 300px;
+    font-family:cursive;
+    font-size: 290%;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.tablas{
+    width: 411px;
+    height: 130px;
+    background-color: rgba(255, 8, 82, 0.199);
+    margin-left: 400px;
+    margin-top: -300px;
+    margin-right: 500px;
+    border-radius: 20px;
+}
+
+.titulotable{
+    background-color: rgba(165, 42, 42, 0.388);
+    padding: 20px 16px;
+    color: azure;
+    font-family: cursive;
+    border-radius: 20px;
+}
+
+.precios{
+    padding: 20px 16px;
+    background-color: rgba(233, 150, 122, 0.457);
+    font-family: cursive;
+    color: antiquewhite;
+    border-radius: 50px;
+}
+
+.ofertas{
+    margin-left: 400px;
+    margin-top: 20px;
+    font-size: 200%;
+}
+
+.descuento{
+    color: rgb(165, 145, 14);
+}
+
+h3{
+    color: rgb(252, 36, 36);;
+}
+
+
